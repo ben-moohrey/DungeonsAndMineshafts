@@ -1,36 +1,26 @@
 # .github/workflows/release.yml
-name: Release Prism Mods
+name: Create release
 
 on:
   push:
-    branches:
-      - main
+    # only run when a tag like "v1.2.3" is pushed
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
 
 jobs:
-  build-and-release:
+  release:
+    name: Build & Publish Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout tagged commit
         uses: actions/checkout@v3
         with:
-          persist-credentials: true
+          # we need full history to see the tag
           fetch-depth: 0
-
-      - name: Extract version from pack.toml
-        id: extract_version
-        run: |
-          VERSION=$(grep -E '^version\s*=' pack.toml \
-            | head -n1 \
-            | sed -E 's/.*"([^"]+)"/\1/')
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-
-      - name: Bail out if release already exists
-        run: |
-          git fetch --tags
-          if git rev-parse --verify "v${{ env.VERSION }}" >/dev/null 2>&1; then
-            echo "Release v${{ env.VERSION }} already exists; skipping workflow."
-            exit 0
-          fi
+          persist-credentials: true
 
       - name: Setup Go
         uses: actions/setup-go@v4
@@ -45,18 +35,17 @@ jobs:
       - name: Generate mod list
         run: packwiz list > mods.txt
 
-      - name: Create & push tag
-        run: |
-          TAG="v${{ env.VERSION }}"
-          git tag -a "$TAG" -m "Release $TAG"
-          git push origin "$TAG"
-
       - name: Create GitHub Release
-        uses: peter-evans/create-release@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          tag_name: "v${{ env.VERSION }}"
-          release_name: "v${{ env.VERSION }}"
-          body_path: mods.txt
-          draft: false
-          prerelease: false
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # strip "refs/tags/" to get the tag name, e.g. "v1.23"
+          TAG=${GITHUB_REF#refs/tags/}
+
+          # create the release using mods.txt as the release notes
+          gh release create "$TAG" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "${TAG#v}" \
+            --notes-file mods.txt \
+            --draft=false \
+            --prerelease=false
