@@ -1,13 +1,13 @@
 name = "AstemirLib"
-filename = "astemirlib-1.20.1-1.25.jar"
+filename = "astemirlib-1.20.1-1.26.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "176cedc3f1661fae4dbe14056f7fdfb1e970d1bc"
+hash = "fdde8518a3073486577d467f35e28ae3ac977254"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5066295
+file-id = 5100554
 project-id = 933306

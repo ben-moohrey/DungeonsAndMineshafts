@@ -346,7 +346,7 @@ metafile = true
 
 [[files]]
 file = "mods/astemirlib.pw.toml"
-hash = "f807d6fc339254a44a34c695121454553673550c5b3963c403103eca99396193"
+hash = "d6906b0d1707c6b1abec9205475a9c5186993a30ee383ada6f7f859a9f71a6a5"
 metafile = true
 
 [[files]]
