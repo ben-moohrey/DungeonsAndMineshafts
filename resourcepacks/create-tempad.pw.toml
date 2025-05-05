@@ -1,0 +1,13 @@
+name = "create: tempad"
+filename = "Create_Tempad.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6131768052a32fb40f17abc83f5c852300a1e0e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5479430
+project-id = 1051481

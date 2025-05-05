@@ -1,0 +1,13 @@
+name = "Create Immersive Aircrafts Andesite Chests Compat"
+filename = "CIA-AC-Compat-v1.1.0-1.20.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5545c6ddcc5453d45fdcf8d71bdb29fd93b03dde"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5410837
+project-id = 1030930
