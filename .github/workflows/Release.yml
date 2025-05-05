@@ -3,22 +3,20 @@ name: Create release
 
 on:
   push:
-    # only run when a tag like "v1.2.3" is pushed
+    # only run when you push a tag like "v1.2.3"
     tags:
       - 'v*'
 
 permissions:
-  contents: write
+  contents: write   # allow creating releases & uploading assets
 
 jobs:
   release:
-    name: Build & Publish Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout tagged commit
         uses: actions/checkout@v3
         with:
-          # we need full history to see the tag
           fetch-depth: 0
           persist-credentials: true
 
@@ -35,17 +33,16 @@ jobs:
       - name: Generate mod list
         run: packwiz list > mods.txt
 
+      - name: Package packwiz directory
+        run: zip -r packwiz.zip packwiz
+
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # strip "refs/tags/" to get the tag name, e.g. "v1.23"
           TAG=${GITHUB_REF#refs/tags/}
-
-          # create the release using mods.txt as the release notes
           gh release create "$TAG" \
             --repo "${GITHUB_REPOSITORY}" \
             --title "${TAG#v}" \
             --notes-file mods.txt \
-            --draft=false \
-            --prerelease=false
+            --assets packwiz.zip
