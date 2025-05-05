@@ -345,11 +345,6 @@ hash = "c51928175be6640cc4fc40a9a0b92454f4ad50c4ff93c8db4c802b29389a45a6"
 metafile = true
 
 [[files]]
-file = "mods/astemirlib.pw.toml"
-hash = "d6906b0d1707c6b1abec9205475a9c5186993a30ee383ada6f7f859a9f71a6a5"
-metafile = true
-
-[[files]]
 file = "mods/astikor-carts-redux.pw.toml"
 hash = "6d7488c03c6ce1b0f06e030bb90094d3b029ccfb01c20de674488710f8ad2891"
 metafile = true
@@ -512,16 +507,6 @@ metafile = true
 [[files]]
 file = "mods/tempad.pw.toml"
 hash = "0296af235a0b02fcfd97237181f1e3723596f3ed15a22b017cc905cea3fd0975"
-metafile = true
-
-[[files]]
-file = "mods/the-dawn-era-delight.pw.toml"
-hash = "a853eb6dde105f59eb8e94913d8ba8f7cd6d0bbcd6d1e23f84531caff7413d3e"
-metafile = true
-
-[[files]]
-file = "mods/the-dawn-era.pw.toml"
-hash = "34c81b2a1aef005d8bc12893605724a4a06d70ba7724cee1437f19833ac59a0b"
 metafile = true
 
 [[files]]
