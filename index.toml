@@ -341,7 +341,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+hash = "c51928175be6640cc4fc40a9a0b92454f4ad50c4ff93c8db4c802b29389a45a6"
 metafile = true
 
 [[files]]
@@ -421,22 +421,22 @@ metafile = true
 
 [[files]]
 file = "mods/item-borders.pw.toml"
-hash = "1be8443ff17db60170347dd46ab54bd809508030e5dc050e230b49c15ec3e850"
+hash = "175953670aa8af658a60be96577eac7202cbef7b01c4d8b7689d100a46f327bc"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
+hash = "8a970ab740cc67c17619839274f7e74aef78473bc4d6be10f0b618d86f02b199"
 metafile = true
 
 [[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
-hash = "08a365f0717fbd5561ff746bc6c41185b0c84582a1cd834115b933266328a5ff"
+hash = "a8ae132986a84a025ba6f0dff9c23572a1973636c5889b21a42cd74818ee6ef8"
 metafile = true
 
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
-hash = "2f4dd47f2ac99a55c332638116596bbdc38a06ac86336bb662e42c604c3a96e6"
+hash = "3e3a275ab58bd1939d2eebe22095b5db265e33716113ebdee659a78d392b6072"
 metafile = true
 
 [[files]]
@@ -471,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/prism-lib.pw.toml"
-hash = "2b0772879a1d43e6fc0d892dca4a85d360e813d5cd3907fc2ab42f345b146362"
+hash = "cf3310f35a829068bd07ec3c603b6bfdc5dbae8f08a0a7928ec5a4828670d8df"
 metafile = true
 
 [[files]]
