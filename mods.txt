@@ -1,0 +1,45 @@
+Ad Astra
+Amendments
+AppleSkin
+AstikorCarts Redux
+Botarium
+Building Gadgets
+Building Gadgets Create like
+Chef's Delight [Forge] - Farmer's Delight Villagers
+Chipped
+Create
+Create Crafts & Additions
+Create Slice & Dice
+Create Style Hopper
+create: tempad
+Embeddium
+Ender's Delight
+Farmer's Delight
+FerriteCore ((Neo)Forge)
+Hopo Better Ruined Portals
+Iceberg [Neo/Forge]
+Immersive Aircraft [Fabric/Forge]
+Item Borders [Neo/Forge]
+Just Enough Items (JEI)
+Just Enough Professions (JEP)
+Just Enough Resources (JER)
+Kotlin for Forge
+Lootr (Forge & NeoForge)
+MmmMmmMmmMmm (Target Dummy)
+ModernFix
+Moonlight Lib
+Nether's Delight
+Ocean's Delight
+Prism [Neo/Forge]
+Quark
+Resourceful Config
+Resourceful Lib
+Stitch (formerly Athena)
+Supplementaries
+Tempad
+The Aether
+YUNG's API (Forge/NeoForge)
+YUNG's Better Mineshafts (Forge/NeoForge)
+YUNG's Better Nether Fortresses (Forge/NeoForge)
+YUNG's Better Strongholds (Forge/NeoForge)
+Zeta
