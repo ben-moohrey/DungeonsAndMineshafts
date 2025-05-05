@@ -559,31 +559,6 @@ hash = "faa211a47a29fb940bfe2d1ccdfc3869f48b265491320e2baa346066dc29ceea"
 metafile = true
 
 [[files]]
-file = "resourcepacks/create-immersive-aircraft-warship.pw.toml"
-hash = "b1dd7cf04938da3f86662e08746f60d164b03da518084eaa34fb732059d5f1b9"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-immersive-aircrafts-andesite-chests-compat.pw.toml"
-hash = "80587e5bd42d9f55a6c5240fda7545337c6d0a47782f69d7eae26200d492a29c"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-immersive-aircrafts-data-pack.pw.toml"
-hash = "9bbd764bc260954610ba2b03f74d782293914adb44edfd1d058b6b215d6265d2"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-immersive-aircrafts-resource-pack.pw.toml"
-hash = "f3a4bb5d89c7d9a554aca934d729611a3bad37c01ab374caf7af6cbc1de4fab0"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-immersive-aircrafts-warship-recipe.pw.toml"
-hash = "dae6a238af6db64b96e8c05ac810fea0136ee02b0d8dc9644409ad12c0092a59"
-metafile = true
-
-[[files]]
 file = "resourcepacks/create-style-hopper.pw.toml"
 hash = "374fc3b531d1cff3d9dcafc73103797e44c5e27bce2ab414fab2695bde9d9284"
 metafile = true
