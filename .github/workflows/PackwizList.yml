@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Setup Go
         uses: actions/setup-go@v4
@@ -23,7 +25,6 @@ jobs:
       - name: Cache Go modules & build
         uses: actions/cache@v3
         with:
-          # speeds up downloading deps & compilation
           path: |
             ~/.cache/go-build
             ~/go/pkg/mod
@@ -40,8 +41,8 @@ jobs:
 
       - name: Install packwiz (via Go)
         if: steps.cache-packwiz.outputs.cache-hit != 'true'
-        run: |
-          go install github.com/packwiz/packwiz@latest
+        run: go install github.com/packwiz/packwiz@latest
+
       - name: Add packwiz to PATH
         run: echo "${HOME}/go/bin" >> $GITHUB_PATH
 
@@ -51,6 +52,7 @@ jobs:
       - name: Commit updated mod list
         uses: EndBug/add-and-commit@v9
         with:
+          token: ${{ secrets.GITHUB_TOKEN }} 
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
           message: "chore: update mod list via packwiz"
