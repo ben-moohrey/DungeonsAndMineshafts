@@ -1,0 +1,62 @@
+# .github/workflows/release.yml
+name: Release Prism Mods
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Extract version from pack.toml
+        id: extract_version
+        run: |
+          VERSION=$(grep -E '^version\s*=' pack.toml \
+            | head -n1 \
+            | sed -E 's/.*"([^"]+)"/\1/')
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Bail out if release already exists
+        run: |
+          git fetch --tags
+          if git rev-parse --verify "v${{ env.VERSION }}" >/dev/null 2>&1; then
+            echo "Release v${{ env.VERSION }} already exists; skipping workflow."
+            exit 0
+          fi
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.19'
+
+      - name: Install packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "${HOME}/go/bin" >> $GITHUB_PATH
+
+      - name: Generate mod list
+        run: packwiz list > mods.txt
+
+      - name: Create & push tag
+        run: |
+          TAG="v${{ env.VERSION }}"
+          git tag -a "$TAG" -m "Release $TAG"
+          git push origin "$TAG"
+
+      - name: Create GitHub Release
+        uses: peter-evans/create-release@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: "v${{ env.VERSION }}"
+          release_name: "v${{ env.VERSION }}"
+          body_path: mods.txt
+          draft: false
+          prerelease: false
