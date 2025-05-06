@@ -14,7 +14,10 @@ Your actual mod list is managed by Packwiz; see Usage below.
 
 🚀 Quick Start
 
+Download the Prism Instance Zip below.
+https://ben-moohrey.github.io/DungeonsAndMineshafts/
 
+Open in the Prism Launcher.
 
 # In repo root:
 🛠 Version Bumping & Releases
