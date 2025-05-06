@@ -354,6 +354,11 @@ hash = "6d7488c03c6ce1b0f06e030bb90094d3b029ccfb01c20de674488710f8ad2891"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 hash = "008c942efc2e2ec221dd1a760b4a50e2f24ede37747731ba794f5e845554adcb"
 metafile = true
@@ -511,6 +516,11 @@ metafile = true
 [[files]]
 file = "mods/tempad.pw.toml"
 hash = "0296af235a0b02fcfd97237181f1e3723596f3ed15a22b017cc905cea3fd0975"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "79410bb7c19d56a75b324e27d32192e1d239385f77db26140fa54f3974e6b25f"
 metafile = true
 
 [[files]]
