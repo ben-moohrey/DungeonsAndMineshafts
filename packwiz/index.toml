@@ -125,66 +125,6 @@ file = "config/dawnera.toml"
 hash = "766742c09c50a8b03dc7ab11ef3dcd213494e0e085aff1c390a9aaabcae93249"
 
 [[files]]
-file = "config/dawnera/mobs/alligator_gar.json"
-hash = "45a4f9f9db7de16eea24d362b852f794c45120655c5b55952070474d41adbf44"
-
-[[files]]
-file = "config/dawnera/mobs/ceratosaurus.json"
-hash = "aeb319beccaf4427b944ad0f81ab3cba022e749bf2090dd267beb3d8175f68fc"
-
-[[files]]
-file = "config/dawnera/mobs/coelacanth.json"
-hash = "81040c28675240fc75407ec38fe040f2ca507e8509e2b6f330d396b713108826"
-
-[[files]]
-file = "config/dawnera/mobs/diabloceratops.json"
-hash = "15b006264e0491208bfd875ab910b3cb407324251567fb25739954d3ecc5e780"
-
-[[files]]
-file = "config/dawnera/mobs/dimorphodon.json"
-hash = "4a51a0571119b9b96914cbb9a431db477bcde300fb49468be2e63e69418c20e2"
-
-[[files]]
-file = "config/dawnera/mobs/dunkleosteus.json"
-hash = "d3880c549eb4bf1fea5109aada231e5d30bb0169b7417dabfb8b84a64739c161"
-
-[[files]]
-file = "config/dawnera/mobs/mixosaurus.json"
-hash = "d8ed1ff9c44bc65c15cdbcaeaaa78c141becb146f61b7fab26094af5548aad00"
-
-[[files]]
-file = "config/dawnera/mobs/pond_snail.json"
-hash = "811e8349b8e3bf555101aa624490d2988c6fee5359a4e1f476e2bf3b1c492e34"
-
-[[files]]
-file = "config/dawnera/mobs/psittacosaurus.json"
-hash = "2e18a7d9ff096795a956a892cf5e60ad7523904a8300ef5448d752781305f2c8"
-
-[[files]]
-file = "config/dawnera/mobs/sabertooth_salmon.json"
-hash = "e4467a40dabd832cbe336f4c79c4241248128f4f378fae128390853b5ef42b28"
-
-[[files]]
-file = "config/dawnera/mobs/struthiomimus.json"
-hash = "fc1839b32a7eb466e0577cdd533d0d56805458216674a7a12bfc8bdab5f4ee1a"
-
-[[files]]
-file = "config/dawnera/mobs/sturgeon.json"
-hash = "85d91c5616cfab7713390e16a2491e81584b64044273aa214f4926c5b164c491"
-
-[[files]]
-file = "config/dawnera/mobs/triceratops.json"
-hash = "85c44ca1b3b64fbef82ae3a555666a43e49ce08d5ab471752c158c5af978d528"
-
-[[files]]
-file = "config/dawnera/mobs/tyrannosaurus.json"
-hash = "f533f6fb09b344a2fd4c85e229d76bc463029ef0f67d9ab76c9ecf7cac7d8592"
-
-[[files]]
-file = "config/dawnera/mobs/worm.json"
-hash = "10532af553c49cdaa03e45e07affd239b68a8e2bbd396c888421a1a8ff3857e5"
-
-[[files]]
 file = "config/dummmmmmy-client.toml"
 hash = "fcdfdd9e0f4d9d84c10e154dc9012f63c55e35fc6b63f733c23952b56c165a4f"
 
@@ -323,10 +263,6 @@ hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
 [[files]]
 file = "config/zeta-common.toml"
 hash = "b5ae0f1685b3136c29758855f06e1eb4fa9878ef78d25b7adcbcd88391074c86"
-
-[[files]]
-file = "mods.txt"
-hash = "70e4807731800aa149b4e9d17158bf97a8c6a06302f7a25a60b10e6730b40cf2"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
