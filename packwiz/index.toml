@@ -390,7 +390,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmerd_naturalist_compat.pw.toml"
-hash = "3226c76ae0d6703e98729edd0c656b86fa5202211ad3b69a1cdd23783f6efdfc"
+hash = "5587e907606d102ba1bcb4f9f0f148e618a1402e021c13178e7021915f96ea1e"
 metafile = true
 
 [[files]]
