@@ -1,6 +1,6 @@
 name = "Dungeons and Mineshafts"
 author = "Ben Murray, Lyle Bicking"
-version = "0.0.3"
+version = "0.0.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
