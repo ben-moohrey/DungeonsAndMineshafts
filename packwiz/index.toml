@@ -603,6 +603,11 @@ hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
 
 [[files]]
+file = "mods/unusual-prehistory.pw.toml"
+hash = "d2854f7b378454314a4987bf525efbbb71e7cef3f52befefb2273f6c5d1d5717"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "79410bb7c19d56a75b324e27d32192e1d239385f77db26140fa54f3974e6b25f"
 metafile = true
