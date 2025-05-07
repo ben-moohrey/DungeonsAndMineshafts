@@ -265,6 +265,10 @@ file = "config/zeta-common.toml"
 hash = "b5ae0f1685b3136c29758855f06e1eb4fa9878ef78d25b7adcbcd88391074c86"
 
 [[files]]
+file = "mods.txt"
+hash = "70e4807731800aa149b4e9d17158bf97a8c6a06302f7a25a60b10e6730b40cf2"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
 metafile = true
@@ -272,6 +276,11 @@ metafile = true
 [[files]]
 file = "mods/aether.pw.toml"
 hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
+metafile = true
+
+[[files]]
+file = "mods/alexs-mobs.pw.toml"
+hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
 
 [[files]]
@@ -295,6 +304,11 @@ hash = "c51928175be6640cc4fc40a9a0b92454f4ad50c4ff93c8db4c802b29389a45a6"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+metafile = true
+
+[[files]]
 file = "mods/astikor-carts-redux.pw.toml"
 hash = "6d7488c03c6ce1b0f06e030bb90094d3b029ccfb01c20de674488710f8ad2891"
 metafile = true
@@ -302,6 +316,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
+metafile = true
+
+[[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
 metafile = true
 
 [[files]]
@@ -322,6 +341,16 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
+metafile = true
+
+[[files]]
+file = "mods/citadel.pw.toml"
+hash = "ab769d9c60cfba798a0538bad596e374dc9c68a9c59ad83684afc66ce4ebfe7f"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
@@ -360,6 +389,10 @@ hash = "3c9b37d3371ba98daf46062789f9ac721e8dadd0d9e01b5cc52be4ed07379f9d"
 metafile = true
 
 [[files]]
+file = "mods/farmerd_naturalist_compat-0.2-1.20.1.jar"
+hash = "10eb9fddb6676fa4b88e0a2e9337426b6e36b0a0c9ef73fd4b8ec26be8a501e8"
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "ba6c13e70f06dde3b8d01d4143c22fea36ec035d7cd8834c7a82aa778a809467"
 metafile = true
@@ -367,6 +400,16 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "598758f152e98916bc6eea2ad73a82b47a6e6934f4b0ba1e1f6593773afd1a50"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "c46659c3e873e0ca121f5215991ae8bc989132a3fea0c2da9eed0f22a947b2b9"
 metafile = true
 
 [[files]]
@@ -390,8 +433,18 @@ hash = "175953670aa8af658a60be96577eac7202cbef7b01c4d8b7689d100a46f327bc"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "aba5a3408880f30daf3442ff6d0a640e9a78e578d9f0c3a3be175ca12dbc3167"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "8a970ab740cc67c17619839274f7e74aef78473bc4d6be10f0b618d86f02b199"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
 metafile = true
 
 [[files]]
@@ -425,6 +478,11 @@ hash = "532742fd8bec17663d0f7d8d687aeed2dd896801b67e283db473a4f06b2ca2a2"
 metafile = true
 
 [[files]]
+file = "mods/naturalist.pw.toml"
+hash = "2e726f4caa4a07e2231181ca59e5e0b61974f9f67794284fcdf476e450cf7769"
+metafile = true
+
+[[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
 metafile = true
@@ -450,6 +508,11 @@ hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
 metafile = true
 
 [[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "5a8e7b3e15ff1dcab7d63b8162c7a5e976de7be90ec29dd4aaf383258fd7c46c"
+metafile = true
+
+[[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "cf3310f35a829068bd07ec3c603b6bfdc5dbae8f08a0a7928ec5a4828670d8df"
 metafile = true
@@ -457,6 +520,11 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "4eb683644ee4e38e00b06df946b71ad8fedaa860fcabbd91ec6ceb71c65b8d81"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "4f8fa2d8bba834bac3240024294ff9f2881fe20e11d775a93497dec5d25be571"
 metafile = true
 
 [[files]]
@@ -470,13 +538,18 @@ hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
 
 [[files]]
+file = "mods/rsinfinitybooster.pw.toml"
+hash = "861149caadb944912e8e5e493736958dc6bab8fefaef065c6c7eabd32e7163c9"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
 metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "0d422c8149fafa618f0d1d227e610f661fbbe66608b33a60b9d614127ffbb08c"
+hash = "db3668dfd6f72c4b3f45d69482a01ae0609decc266674e4e1d43426d331aada9"
 metafile = true
 
 [[files]]
@@ -487,6 +560,26 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "ebc991519db80f7009e67023483354bb562ee939eeac754cf4cb290e29d01761"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "f162f7b45194efd3772c29479e648bfbe5469021e91a40ed6028f96ce82896bb"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "fadae3e68878ab3ecf44dd4e53ead83ee81a44e971c78032ab69cdf530361fc5"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "a7bb27fd3e372a43c3e651f1548bb3a8435d896f928752e0a46c90723941e189"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "0f743908fc760c7f9b355bb3d9535c88eb1bad729bb08932f84a4118018272b1"
 metafile = true
 
 [[files]]
@@ -502,6 +595,11 @@ metafile = true
 [[files]]
 file = "mods/tempad.pw.toml"
 hash = "0296af235a0b02fcfd97237181f1e3723596f3ed15a22b017cc905cea3fd0975"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
 
 [[files]]
