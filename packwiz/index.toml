@@ -369,6 +369,11 @@ hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
 metafile = true
 
 [[files]]
+file = "mods/corail-tombstone.pw.toml"
+hash = "a753795f2581005ff60f4056870afcb400c05358156ffd3513d25b80743df5dd"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "04eff00e4383097d9809dec31ab08976a4516fd5a2fe348b88a532507f68e6ba"
 metafile = true
@@ -440,7 +445,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "8a970ab740cc67c17619839274f7e74aef78473bc4d6be10f0b618d86f02b199"
+hash = "fd35eb8e67f11aec4ae71465ac1b2d9599039d1b3efd8f463655b58f744b5a09"
 metafile = true
 
 [[files]]
